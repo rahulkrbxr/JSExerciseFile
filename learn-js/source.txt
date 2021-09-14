@@ -1,0 +1,159 @@
+JavaScript Programming - Full Course
+https://www.youtube.com/watch?v=jS4aFq5-91M&t=305s
+
+Timeline:
+00:00 Intro
+03:41 Passenger counter app
+04:39 Setting up file
+07:42 Create variable
+12:27 Mathematical operations
+16:16 Reassigning & incrementing
+19:23 Adding button
+21:41 onclick event listener
+25:10 Using functions to write less code
+28:48 First function
+29:34 Function that logs sum
+32:25 Function that increments
+34:23 Increment on clicks
+36:35 Display count
+41:53 Document Object Model
+43:47 Display count w/ innerText
+44:30 Create save button
+46:40 What is string?
+48:16 First string variable
+52:00 Log greeting to console
+53:18 Strings vs. Numbers
+56:07 Render welcome message
+58:10 Improve message w/ string concatenation
+1:00:28 Use plus equal for count
+1:00:57 Create save feature
+1:05:38 Debugging online
+1:09:31 Set count to 0
+1:12:28 Recap
+1:15:47 Variables practice
+1:17:42 Concatenate strings
+1:18:43 Incrementing & decrementing
+1:20:56 Strings & numbers
+1:22:35 Rendering error message
+1:25:52 Calculator challenge
+​
+Build Blackjack Game 
+1:31:27 Build Blackjack game
+1:32:27 Add firstCard, secondCard, & sum
+1:33:23 If...else conditionals
+1:39:08 if...else statement
+1:42:05 if/else...if/else statement
+1:45:28 if...else statement for our game
+1:47:32 hasBlackJack variable
+1:49:38 isAlive variable
+1:51:27 Practice boolean conditions
+1:54:55 Add message variable
+1:58:20 Link stylesheet
+2:00:56 Add basic styling
+2:05:19 Make start button work
+2:11:13 Display message
+2:13:48 Display sum
+2:19:36 Display cards
+2:21:34 New card button
+2:25:16 Add to sum when newCard is clicked
+2:28:36 Rename startGame function
+2:30:52 Solving our cards problem w/ array
+2:34:12 Arrays intro
+2:39:30 Array indexes
+2:43:50 Arrays w/ multiple data types
+2:46:12 Adding & removing items from arrays
+2:50:35 Creating cards array
+2:51:43 Push new card to array
+2:53:05 Counting
+2:57:10 Loops
+3:00:37 For loops & arrays
+3:04:23 First array-based for loop
+3:05:55 For loops, arrays, & DOM
+3:08:55 Use loop to render cards
+3:11:16 Avoid hard-coding values
+3:12:51 Returning values
+3:17:54 Use function to set card values
+3:21:05 Generating random numbers w/ Math.random()
+3:25:24 Math.random() * 6
+3:27:11 Flooring number w/ Math.floor()
+3:28:40 Create dice
+3:30:23 Completing dice function
+3:33:04 Make getRandomCard() work
+3:36:00 getRandomNumber function
+3:39:06 Assign values in startGame function
+3:41:52 Card feature is broken
+3:42:54 Logical AND operator
+3:46:39 Logical operators
+3:48:47 logical OR operator
+3:51:52 Only trigger newCard() if you're allowed to
+3:53:23 Object sneak peek
+3:58:02 Objects
+4:02:47 Create first object
+4:06:08 Store player data
+4:08:48 Methods on object
+4:10:50 Recap
+4:15:17 Objects & functions
+4:17:21 if else
+4:20:13 Loops & arrays
+4:22:21 push, pop, unshift, shift challenge
+4:25:50 Logical operators
+4:27:50 Rock papers scissors
+4:30:52 Sorting fruits
+
+Build Chrome Extension 
+4:33:54 Build Chrome Extension
+4:38:30 Add button & input tag
+4:40:06 Style button & input tag
+4:47:28 Make input button work w/ onclick
+4:48:49 Refactor to addEventListener
+4:51:11 addEventListener()
+4:52:58 Refactoring
+4:54:25 Create myLeads array & inputEl
+4:56:49 Using let & const
+5:00:11 Push to myLeads array
+5:01:24 Push value from input field
+5:03:56 Use for loop to log out leads
+5:05:38 Create unordered list
+5:07:39 Render leads in unordered list
+5:11:22 How to render li elements w/ innerHTML
+5:13:01 innerHTML
+5:14:34 More innerHTML practice
+5:16:26 Render li elements w/ innerHTML
+5:17:37 Use createElement() & append() instead of innerHTML
+5:21:16 Improving performance of our app
+5:24:37 Create render function
+5:26:40 Clear input field
+5:28:47 Add a tag
+5:35:53 Template strings
+5:35:54 Write template string
+5:36:28 Make template string more dynamic
+5:37:12 Template strings on multiple lines
+5:41:03 Refactor app to use template string
+5:42:19 Style list
+5:46:13 Preparing deployment
+5:51:08 Deploying Chrome Extension
+5:53:40 What is localStorage?
+5:56:45 First localStorage
+6:00:38 Storing arrays in localStorage
+6:07:05 Save leads
+6:09:36 Get leads
+6:13:31 Truthy & falsy values
+6:21:28 Guess expression: truthy or falsy?
+6:23:52 Checking localStorage before rendering
+6:27:33 Style delete button
+6:30:52 Make delete button work
+6:35:12 How function parameters can improve our code
+6:41:09 Write function parameter
+6:44:40 Functions w/ multiple params
+6:47:54 Numbers as function params
+6:49:40 Arguments vs Params
+6:53:06 Arrays as params
+6:55:02 Refactor renderLeads() to use parameter
+6:56:46 Create tabBtn
+7:00:07 Save tab url
+7:02:46 Get current tab
+7:07:09 Use Chrome API to get tab
+7:13:32 Deploy final version
+7:15:48 Recap
+7:21:34 Practice
+7:41:55 Outro
