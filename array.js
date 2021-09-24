@@ -32,4 +32,8 @@ console.log(temp);
 
 // edit the existing array
 temp.splice(2, 1, "Pune");
-console.log(temp);
+
+
+for (var i=0; i<temp.length; i++) {
+    console.log(temp[i]);
+}
