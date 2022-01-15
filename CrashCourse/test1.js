@@ -24,3 +24,5 @@ const todoComplete = todos.filter(function(todo) {
     return todo.text
 });
 console.log(todoComplete);
+
+todos.forEach(todo => console.log(todo.text))
