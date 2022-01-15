@@ -1,28 +1,24 @@
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isCompleted: true
-    }, 
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: 'Dentist appointment',
-        isCompleted: false
-    }
-];
+// Constructor prototype
+function Person(firstName, lastName, dob) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+};
 
-// for of
-// forEach, map, filter
-const todoComplete = todos.filter(function(todo) {
-    return todo.isCompleted === true;
-}).map(function(todo) {
-    return todo.text
-});
-console.log(todoComplete);
+Person.prototype.getBirthday = function() {
+    return this.dob.getFullYear();
+}
 
-todos.forEach(todo => console.log(todo.text))
+Person.prototype.getFullName = function() {
+    return `${this.firstName} ${this.lastName}`;
+}
+
+// Instantiate object
+const person1 = new Person('Rahul', 'Kumar', '2000-06-02');
+const person2 = new Person('Selina', 'Gomez', '1995-07-13');
+
+// console.log(`${person1.getName()}: ${person1.getBirthday()}`);
+// console.log(`${person2.getFullName()}: ${person2.getBirthday()}`);
+
+console.log(person1);
+console.log(person2.getFullName() + " " + person2.getBirthday());
