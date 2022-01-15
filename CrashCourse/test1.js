@@ -1,17 +1,38 @@
-// Constructor prototype
-function Person(firstName, lastName, dob) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.dob = new Date(dob);
-};
+// // Constructor prototype
+// function Person(firstName, lastName, dob) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+// };
 
-Person.prototype.getBirthday = function() {
-    return this.dob.getFullYear();
+// Person.prototype.getBirthday = function() {
+//     return this.dob.getFullYear();
+// }
+
+// Person.prototype.getFullName = function() {
+//     return `${this.firstName} ${this.lastName}`;
+// }
+
+
+
+
+// Class
+class Person {
+    constructor(firstName, lastName, dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = new Date(dob);
+    }
+
+    getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    getBirthday() {
+        return this.dob.getFullYear();
+    }
 }
 
-Person.prototype.getFullName = function() {
-    return `${this.firstName} ${this.lastName}`;
-}
 
 // Instantiate object
 const person1 = new Person('Rahul', 'Kumar', '2000-06-02');
