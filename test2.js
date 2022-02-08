@@ -1,31 +1,16 @@
-// let animal = {
-//     breed: true
-// }
+var generateID = function() {
+    prefix = "udi-" 
 
-// let cat = {
-//     legs: 2
-// }
+    count = 0 
 
-// cat.__proto__ = animal
-
-// console.log(cat.legs)
-
-// console.log(cat.breed)
-
-var itemsInCart = 0
-
-function addItem() {
-    itemsInCart++
-    console.log("Item added to cart!")
-    console.log("Item(s) in cart " + itemsInCart);
+    return function() {
+        count++; 
+        return prefix + count;
+    }
 }
 
-function removeItem() {
-    itemsInCart--
-    console.log("Item removed from cart!")
-    console.log("Item(s) in cart " + itemsInCart);
-}
+var print = generateID()
 
-addItem()
-addItem()
-removeItem()
+console.log(print())
+console.log(print())
+console.log(print())
