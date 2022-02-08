@@ -8,7 +8,7 @@
 // var a = {key1 : 1, key2: 2}
 // var b = a
 // a.key1 = 3
-// console.log(a, b)
+// console.log(a, b) 
 
 /*----------------------------------------------*/
 
@@ -51,13 +51,13 @@
 // console.log(a, b)
 
 
-function swap(obj) {
-    obj.a = obj.a + obj.b
-    obj.b = obj.a - obj.b
-    obj.a = obj.a - obj.b
-}
+// function swap(obj) {
+//     obj.a = obj.a + obj.b
+//     obj.b = obj.a - obj.b
+//     obj.a = obj.a - obj.b
+// }
 
-var obj = {a : 1, b: 2}
-console.log(obj.a, obj.b)
-swap(obj)
-console.log(obj.a, obj.b)
+// var obj = {a : 1, b: 2}
+// console.log(obj.a, obj.b)
+// swap(obj)
+// console.log(obj.a, obj.b)
