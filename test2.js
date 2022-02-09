@@ -1,16 +1,12 @@
-var generateID = function() {
-    prefix = "udi-" 
+var side = 5
 
-    count = 0 
+console.log(calculateArea(side))
+console.log(calculateVolume(side))
 
-    return function() {
-        count++; 
-        return prefix + count;
-    }
+function calculateArea(side) {
+    return side * side;
 }
 
-var print = generateID()
-
-console.log(print())
-console.log(print())
-console.log(print())
+function calculateVolume(side) {
+    return side * side * side;
+}
